@@ -2,7 +2,6 @@ import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 import { format } from "date-fns";
 import App from "../components/App";
-
 beforeEach(() => {
   render(<App />);
 });
@@ -34,4 +33,4 @@ test("should include the <TestComponent />", () => {
 //   it('should include the TestComponent', () => {
 //     expect(wrapper.text()).to.include('<TestComponent />')
 //   });
-// });
+
